@@ -9,107 +9,157 @@ module.exports = {
       colors: {
         brand: {
           primary: '#313e83', // Brand/MB500*
-          hover: '#272F66', // Keep existing (no direct match found in variables, maybe derived)
-          active: '#1E234A', // Keep existing
-          text: '#11111F', // Keep existing
-          error: '#fa332d', // Semantic/Error(Decrease) matches
+          hover: '#272F66', // Manual
+          active: '#1E234A', // Manual
+          text: '#11111F', // Manual
+          error: '#fa332d', // Semantic/Error(Decrease)
         },
-        // Figma Variables
         gray: {
-          100: '#f7f8fb', // Gray/GR100
-          150: '#f2f4f8', // Gray/GR150
-          200: '#edeff5', // Gray/GR200
-          400: '#d8dae5', // Gray/GR400
-          600: '#8f95b2', // Gray/GR600
-          700: '#696f8c', // Gray/GR700
-          800: '#474d66', // Gray/GR800
-          850: '#303751', // Gray/GR850
-          900: '#242946', // Gray/GR900
-          black: '#11111f', // Gray/Black
-          white: '#ffffff', // Gray/White
+          black: "#11111f",
+          100: "#f7f8fb",
+          150: "#f2f4f8",
+          400: "#d8dae5",
+          600: "#8f95b2",
+          700: "#696f8c",
+          800: "#474d66",
+          900: "#242946"
         },
         brand_scale: {
-          50: '#ebeeff', // Brand/MB50
-          100: '#c5ccf2', // Brand/MB100
-          200: '#8b96cf', // Brand/MB200
-          300: '#6773b4', // Brand/MB300
-          400: '#4a579d', // Brand/MB400
-          500: '#313e83', // Brand/MB500*
-          600: '#253171', // Brand/MB600
-          700: '#1a2660', // Brand/MB700
-          800: '#0b1448', // Brand/MB800
-          900: '#000938', // Brand/MB900
-          point: '#00dcc2', // Brand/Point
+          point: "#00dcc2",
+          50: "#ebeeff",
+          100: "#c5ccf2",
+          200: "#8b96cf",
+          300: "#6773b4",
+          400: "#4a579d",
+          500: "#313e83",
+          600: "#253171",
+          700: "#1a2660",
+          800: "#0b1448",
+          900: "#000938"
         },
         semantic: {
-          info: '#1890ff', // Semantic/Info(Active)
-          success: '#00a925', // Semantic/Success(Increase)
-          warning: '#ffc107', // Semantic/Warning(Notice)
-          error: '#fa332d', // Semantic/Error(Decrease)
+          info: "#1890ff",
+          success: "#00a925",
+          warning: "#ffc107",
+          error: "#fa332d"
         },
         extended: {
           info: {
-            lighter: '#c7e4ff', // Extended/Info(Active)/Lighter
-            light: '#6ab7ff', // Extended/Info(Active)/Light
-            main: '#1890ff', // Extended/Info(Active)/Main
-            dark: '#006dd2', // Extended/Info(Active)/Dark
-            darker: '#003a70', // Extended/Info(Active)/Darker
+            lighter: "#c7e4ff",
+            light: "#6ab7ff",
+            main: "#1890ff",
+            dark: "#006dd2",
+            darker: "#003a70"
           },
           success: {
-            lighter: '#d6eddb', // Extended/Success(Increase)/Lighter
-            light: '#6ac77e', // Extended/Success(Increase)/Light
-            main: '#00a925', // Extended/Success(Increase)/Main
-            dark: '#00871e', // Extended/Success(Increase)/Dark
-            darker: '#005012', // Extended/Success(Increase)/Darker
+            lighter: "#d6eddb",
+            light: "#6ac77e",
+            main: "#00a925",
+            dark: "#00871e",
+            darker: "#005012"
           },
           warning: {
-            lighter: '#ffe9a9', // Extended/Warning(Notice)/Lighter
-            light: '#ffdb71', // Extended/Warning(Notice)/Light
-            main: '#ffc107', // Extended/Warning(Notice)/Main
-            dark: '#a37200', // Extended/Warning(Notice)/Dark
-            darker: '#604801', // Extended/Warning(Notice)/Darker
+            lighter: "#ffe9a9",
+            light: "#ffdb71",
+            main: "#ffc107",
+            dark: "#a37200",
+            darker: "#604801"
           },
           error: {
-            lighter: '#ffd3d1', // Extended/Error(Decrease)/Lighter
-            light: '#ff9996', // Extended/Error(Decrease)/Light
-            main: '#fa332d', // Extended/Error(Decrease)/Main
-            dark: '#c31c17', // Extended/Error(Decrease)/Dark
-            darker: '#6f0805', // Extended/Error(Decrease)/Darker
-          },
+            lighter: "#ffd3d1",
+            light: "#ff9996",
+            main: "#fa332d",
+            dark: "#c31c17",
+            darker: "#6f0805"
+          }
         },
         transparent: {
           info: {
-            8: '#1890ff14', // Transparent/Info(Active)/8%
-            12: '#1890ff1f', // Transparent/Info(Active)/12%
-            16: '#1890ff29', // Transparent/Info(Active)/16%
-            24: '#1890ff3d', // Transparent/Info(Active)/24%
-            32: '#1890ff52', // Transparent/Info(Active)/32%
-            48: '#1890ff7a', // Transparent/Info(Active)/48%
+            8: "#1890ff14",
+            12: "#1890ff1f",
+            16: "#1890ff29",
+            24: "#1890ff3d",
+            32: "#1890ff52",
+            48: "#1890ff7a"
           },
           success: {
-            8: '#00a92514', // Transparent/Success(Increase)/8%
-            12: '#00a9251f', // Transparent/Success(Increase)/12%
-            16: '#00a92529', // Transparent/Success(Increase)/16%
-            24: '#00a9253d', // Transparent/Success(Increase)/24%
-            32: '#00a92552', // Transparent/Success(Increase)/32%
-            48: '#00a9257a', // Transparent/Success(Increase)/48%
+            8: "#00a92514",
+            12: "#00a9251f",
+            16: "#00a92529",
+            24: "#00a9253d",
+            32: "#00a92552",
+            48: "#00a9257a"
           },
           warning: {
-            8: '#ffc10714', // Transparent/Warning(Notice)/8%
-            12: '#ffc1071f', // Transparent/Warning(Notice)/12%
-            16: '#ffc10729', // Transparent/Warning(Notice)/16%
-            24: '#ffc1073d', // Transparent/Warning(Notice)/24%
-            32: '#ffc10752', // Transparent/Warning(Notice)/32%
-            48: '#ffc1077a', // Transparent/Warning(Notice)/48%
+            8: "#ffc10714"
+          }
+        },
+        chart_extended: {
+          mint: {
+            100: "#8be7db",
+            200: "#4bdcca",
+            300: "#1ed1ba",
+            400: "#00b9a3",
+            500: "#019c8a",
+            600: "#008171"
           },
-          error: {
-            8: '#fa332d14', // Transparent/Error(Decrease)/8%
-            12: '#fa332d1f', // Transparent/Error(Decrease)/12%
-            16: '#fa332d29', // Transparent/Error(Decrease)/16%
-            24: '#fa332d3d', // Transparent/Error(Decrease)/24%
-            32: '#fa332d52', // Transparent/Error(Decrease)/32%
-            48: '#fa332d7a', // Transparent/Error(Decrease)/48%
+          orange: {
+            50: "#ffc3a9",
+            100: "#fdac89",
+            200: "#ff986b",
+            300: "#ff824d",
+            400: "#eb6227",
+            500: "#ba4c1d",
+            600: "#873715"
           },
+          teal: {
+            50: "#cfd8ff",
+            100: "#b5c3ff",
+            200: "#94a9ff",
+            300: "#728eff",
+            400: "#5876f0",
+            500: "#4a67dc",
+            600: "#2b46b4",
+            700: "#1e3699",
+            800: "#061b70",
+            900: "#061247"
+          },
+          indigo: {
+            50: "#d3d4ff",
+            100: "#c5c7fe",
+            200: "#afb2ff",
+            300: "#999cf9",
+            400: "#8184f0",
+            500: "#686be8",
+            600: "#484bd2",
+            700: "#3436b1",
+            800: "#242689",
+            900: "#000271"
+          },
+          red: {
+            50: "#ffd9e0",
+            100: "#ffc2ce",
+            200: "#fbacbb",
+            300: "#ff95a9",
+            400: "#ff8199",
+            500: "#fd607d",
+            600: "#ff0000",
+            700: "#e22e4f",
+            800: "#cf1236",
+            900: "#9c0622"
+          },
+          cyan: {
+            50: "#e6f0f3",
+            100: "#cbe1ec",
+            200: "#b2d4e6",
+            300: "#9cc3dd",
+            400: "#67a8cc",
+            500: "#3089b8",
+            600: "#036ca7",
+            700: "#005f94",
+            800: "#004a73",
+            900: "#003b5d"
+          }
         },
       },
       fontFamily: {
